@@ -1,0 +1,59 @@
+<body>
+  
+<h1>Chat Box</h1>
+    
+<div id="bannerToWrite">    
+ 
+    <img id="catWithoutBackground" 
+        src="image/catWithoutBackground.png" 
+            alt="cat Without Background in png">
+
+    <table>
+        <tr>
+            <td> <br> <b>couleur:</b> <br> (prédéfinie) </td>
+            <td> <?php echo $circle; ?> </td>
+        </tr>
+        <tr>
+            <td> <br> <b>pseudo:</b> <br> (requis) </td>
+            <td> <input type="text" id="pseudo"> </td>
+        </tr>
+        <tr>
+            <td> <b>texte:</b> </td>
+            <td>
+                <textarea id="text" cols="100" rows="10"></textarea>
+            </td>
+        </tr>
+    </table>
+
+    <div id='write'>
+        <button id="write_button" 
+            onkeypress="writing()" onclick="writing()">
+            
+            <img id="write_button--catPaw" 
+                src="image/catPaw.png" 
+                    alt="cat Paw Without Background in png">
+            
+            <div id="write_button--text">écrire</div>
+        
+        </button>
+    </div>
+
+</div>
+
+<div id="bannerToRead"> 
+
+    <div id="space"><br><br><br><br><br></div>
+
+
+    <br>
+    <div id = 'people'>
+        Nombre de personnes connectées (estimation) :
+        <span id="numberOfPeopleConnected">?</span>
+    </div>
+    <br>
+    <div id="output"></div> 
+</div>
+
+
+
+</body></html>

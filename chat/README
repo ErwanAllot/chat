@@ -1,0 +1,18 @@
+Il reste des choses à modif dans read
+On ne va pas tout lire non plus, si ?
+Et puis, je crois que ça le lit pas le 1ER message
+J'ai ici fait des modifs
+
+Et que si le fichier n'existe pas, ça bug mais juste au tout 
+tout départ, après un message ou 2 c'est bon.
+euh, je suis trop crevé pour vérif là
+
+Parti modo pour tout effacer, pas fait.
+Effacer ou bien sauter x lignes
+J'ai fait un truc
+
+
+On pourrait optimiser le comptage avec 1 fichier txt dédié à ça
+Ca demande de refaire le code
+
+On a bourricot pour le liant entre js et php
